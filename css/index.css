@@ -208,17 +208,21 @@ footer {
 }
 
 @meda(max-width: 800px){
-  .body {width: 800px;}
+  .body {width: 100%;}
+  margin {0 auto;}
 }
 
 @media(max-width: 500px){
-  .body {width: 500px;
-  margin: 25px;}
+  .body {width: 100%;
+    height:auto;
+    margin: 0 auto;
+    justify-content: center;
+  }
   .CircleImg {visibility:hidden;}
   .a{justify-content: center}
   .a:first-child{
     margin: 20px;}
-  .a:last-child{margin: 20px;}
+  .a:last-child{ display: flex-start;}
 
   .cta-text{display: flex;justify-content: center;}
 }
