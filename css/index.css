@@ -136,7 +136,6 @@ header .logo {
 
 button{
   height: 50px;
-  align-self: center;
 }
 
 
@@ -213,18 +212,18 @@ footer {
 }
 
 @media(max-width: 500px){
-  .body {width: 100%;
+  .body .content {width: 100%;
     height:auto;
     margin: 0 auto;
     justify-content: center;
   }
   .CircleImg {visibility:hidden;}
-  .a{justify-content: center}
+  .a {justify-content: center}
   .a:first-child{
     margin: 20px;}
   .a:last-child{ display: flex-start;}
 
-  .cta-text{display: flex;justify-content: center;}
+  .cta-text{display: flexbox;justify-content: center;}
 }
 
 
