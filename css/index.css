@@ -214,8 +214,8 @@ footer {
  .container{ width: 800px;}
  .CircleImg {display: none;}
  .cta {display: flex;}
- header{width: 75%;}
- nav {width: 75%;}
+ header{width: 90%;}
+ nav {width: 90%;}
  .middle-img {width: 99%;
 justify-content: center;}
 }
@@ -223,8 +223,20 @@ justify-content: center;}
 @media (max-width: 500 px){
   .container {width: 500px;
   margin: 0 auto;}
- 
+  header nav a { width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-content{display:flex;
+  }
+
+  .text-content{
+    display: flexbox;
+    flex-direction: column;
+  }
 }
+
+
 
 
 
