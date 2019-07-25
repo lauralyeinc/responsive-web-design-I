@@ -215,13 +215,18 @@ footer {
  .CircleImg {display: none;}
  .cta {display: flex;}
  header{width: 75%;}
-#logo{ }
-nav {
-  width: 75%;
+ nav {width: 75%;}
+ .middle-img {width: 99%;
+justify-content: center;}
+}
+
+@media (max-width: 500 px){
+  .container {width: 500px;
+  margin: 0 auto;}
+ 
 }
 
 
-}
 
 
 
